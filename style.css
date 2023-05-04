@@ -1,0 +1,162 @@
+.container-fluid{
+    background-color: rgb(49, 49, 49);
+    margin: 0;
+    
+ }
+ body{
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     background-color:rgb(49, 48, 48) ;
+     color: white;
+ }
+ 
+ nav{
+     margin-bottom: 0;
+ }
+ .navbar{
+     padding-top: 0;
+     
+ 
+ }
+ a.navbar-brand{
+     color: white;
+ }
+ a.nav-link{
+     color: white;
+ }
+ .nav-link a:hover{
+     color: white;
+ }
+ 
+ .backimage{
+    background-image: url("food.jpg");
+     max-width: 100%;
+     height: 780px;
+    max-height: 664px;
+     background-size:cover ;
+     margin: 0;
+ 
+ }
+ 
+ .divi{
+ padding-top: 228px;
+ padding-left: 300px;
+ color: white;
+ font-size: 125px;
+ max-height: 330px;
+ cursor: pointer;
+ }
+ .treat{
+     font-size: 125px;
+     color: white;
+     padding-left: 700px;
+     cursor: pointer;
+ }
+ 
+  div.divi:hover{
+     transform:translateX(-0.7em);
+     transition: 0.5s;
+ }
+ 
+  div.treat:hover{
+     transform: translateX(0.7em);
+     transition: 0.5s;
+ }
+ section.container-fluid{
+     padding-top: 50px;
+ }
+ img:hover{
+     transform: scale(0.8);
+     transition: 0.7s;
+ }
+ 
+ *{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+ }
+ footer{
+     background: black
+ }
+ .footercontianer{
+     width: 100%;
+     padding: 70px 30px 20px;
+ }
+ .socialIcons{
+     display: flex;
+     justify-content: center;
+    
+ }
+ 
+ .socialIcons a{
+     text-decoration: none;
+     padding: 10px;
+     background-color: white;
+     margin: 10px;
+     border-radius:50% ;
+ }
+ 
+ .socialIcons a i{
+     font-size: 2em;
+     color: black;
+     opacity: 0.9;
+ 
+ }
+ 
+ .socialIcons  a:hover{
+     color: white;
+     transition: 0.5s;
+     
+ }
+ 
+ .footerNav{
+     margin: 30px 0;
+ }
+ .footerNav ul{
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+ 
+ }
+ 
+ .footerNav ul li a  {
+      color: white;
+      margin: 20px;
+      text-decoration: none;
+      font-size: 1.3em;
+      opacity: 0.7;
+      transition: 0.5s;
+ 
+ }
+ 
+ .footerNav ul li a:hover{
+     opacity: 1;
+     
+ }
+  .FooterBottom{
+     background-color: black;
+     padding: 20px;
+     text-align: center;
+  }
+ .designer{
+     opacity: 0.7;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 400;
+     margin: 0px 5px;
+ 
+ }
+ @media(max-width: 700px){
+     .footerNav ul{
+         flex-direction: column;
+     }
+     .footerNav ul li {
+         width: 100%;
+         text-align: center;
+         margin: 10px;
+ 
+     }
+ }
+ 
+ 
+ 
